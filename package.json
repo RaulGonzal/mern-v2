@@ -1,0 +1,15 @@
+{
+  "name": "mern-v2",
+  "version": "2.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Raul Gonzalez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
