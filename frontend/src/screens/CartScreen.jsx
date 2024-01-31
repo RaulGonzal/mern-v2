@@ -17,7 +17,7 @@ const CartScreen = () => {
     }
 
     const removeFromCartHandler= async (id) =>{
-        dispatch(removeFromCart({id}))
+        dispatch(removeFromCart(id))
     }
 
     const checkoutHandler = () => {
