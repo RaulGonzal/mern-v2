@@ -37,7 +37,7 @@ const PlaceOrderScreen = () => {
                 taxPrice: cart.taxPrice,
                 totalPrice: cart.totalPrice
             }).unwrap()
-            dispatch(clearCartItems)
+            dispatch(clearCartItems())
             navigate(`/order/${res._id}`) 
         }
         catch (error){
@@ -137,6 +137,7 @@ const PlaceOrderScreen = () => {
                         <ListGroup.Item>
                             { error && <Message variant='danger'>{error}</Message> }
                         </ListGroup.Item>
+
                         <ListGroup.Item>
                             <Button
                                 type='button'
