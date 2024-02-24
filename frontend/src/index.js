@@ -19,7 +19,7 @@ import ProductScreen from './screens/ProductScreen';
 import CartScreen from './screens/CartScreen';
 import LoginScreen from './screens/LoginScreen';
 import RegisterScreen from './screens/RegisterScreen';
-import ShippingScreen from './screens/shippingScreen';
+import ShippingScreen from './screens/ShippingScreen';
 import PrivateRoute from './components/PrivateRoute';
 import AdminRoute from './components/AdminRoute';
 import PaymentScreen from './screens/PaymentScreen';
